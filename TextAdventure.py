@@ -22,6 +22,7 @@ class Inventory():
    def Ammunition(x):
 		return x -= 1
 
+ammo = Ammunition(20)
 
 name = str(input("Welcome to the text adventure! Please start by entering your name."))
 residence = str(input("Okay," + name + ", where do you live in Fjordland?"))
@@ -33,4 +34,8 @@ switch(travel):
 		print("Nice job, you gain 500 coins for your trouble.")
 		balance = 500
 	case("Kill them"):
-		print("Oh no! The king's soldiers are after you! You only have a sword and a bow and arrows. What would you like to do? \nFight them\n Surrender")
+		str(input("Oh no! 2 of the king's soldiers are after you! You only have a sword and a bow and arrows. What would you like to do? \nFight them\n Surrender"))
+		case("Fight them"):
+		str(input("Would you like to use a sword or your arrows? You have " + ammo + " arrows. \nsword \narrows"))
+		case("sword"):
+		print("The soldiers have been defeated!")
