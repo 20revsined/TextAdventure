@@ -56,7 +56,12 @@ if travel == "Help them out":
 		print("The interrogator punches you in the face, causing you to lose 5 health. He yells, 'Answer me when I'm talking to you, scum!'")
 	elif reponse == "I stumbled upon it and was curious":
 		print("The man says, 'Mind your own business next time! Now leave before I kill you!' You exit quickly and arrive at Orange Town, where you see your friend. Your friend, concerned that you looked troubled asks, 'Are you okay? What's wrong?'")
-		print("You don't respond and she asks you again, '" + name + "', I'm really concerned about you. Will you please tell me? what's wrong?' \nTell her \nSay nothing")
+		answer = str(input("You don't respond and she asks you again, '" + name + "', I'm really concerned about you. Will you please tell me? what's wrong?' \nTell her \nSay nothing"))
+		if answer == "Tell her":
+			report = print("You tell her what happened to you, and she frowns. 'Since I work for the kindgom, I can have them arrested for treating you like this. Do you want me to report this incident to the king's advisor?' \nyes \nno")
+		elif answer == "Say nothing":
+			print("'Okay,' she says, 'I won't press you on the matter. Tell me, how are you doing?' \ngood \nbad")
+
 elif("Kill them"):
 	decision = str(input("Oh no! 2 of the king's soldiers are after you! You only have a sword and a bow and arrows. What would you like to do? \nFight them\n Surrender"))
 	if decision == "Fight them":
