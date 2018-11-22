@@ -1,8 +1,23 @@
 ***PLEASE READ BEFORE DOING ANYTHING***
 
-Welcome to the text adventure written in python! This program will allow you to play as a character in an adventure filled with fun... and a lot
-of if else statements.
+Welcome to the text adventure written in python! This program will allow you to play as a character in an adventure filled with fun...
+and a lot of if else statements.
+
+To play the game, you should:
+1. Download Sublime Text 3 (link below)
+2. Copy the code in the TextAdventure.py part of the TextAdventure repository into a new Sublime Text 3 file
+3. Save the file on the Desktop and name it the following format: [name of file].py
+4. On command prompt/terminal, do the following steps:
+
+***IT IS RECOMMENDED THAT YOU SAVE THE FILE TO THE DESKTOP AND IN THE FORMAT .py (EX. Sample.py)***
+
+In command prompt (type):
+1. cd Desktop
+2. python [name of file exactly as is it named].py
 
 Have fun!
 
 NOTE: THIS PROGRAM IS STILL IN DEVELOPMENT. THE COMPLETE, WORKING VERSION WILL BE RELEASED ASAP.
+
+link to download Sublime Text 3: https://www.sublimetext.com/3 (click the apprpriate link, based on the type of computer you have
+(ex. apple, windows, linux) to download when on the website)
