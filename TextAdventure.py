@@ -24,7 +24,25 @@ class Inventory():
 			arrows = arrows - x
 			return arrows
 
+class Health():
+	def __init__(self, hp):
+		self.hp = hp
+
+	def getHP(x):
+		return x
+
+    #calculates the damage the player receives
+	def Damage(hp, x):
+		return hp - x
+
+	#calculates the amount of health (hp) restoration
+	def Heal(hp, x):
+		return hp + x
+		
+
 ammo = 20
+health = 100
+
 name = str(input("Welcome to the text adventure! Please start by entering your name."))
 residence = str(input("Okay," + name + ", where do you live in Fjordland?"))
 travel = str(input("Okay," + name + ", you leave " + residence + ", and walk to Castle City. " + 
@@ -33,7 +51,12 @@ if travel == "Help them out":
 	print("Nice job! You gain 500 coins for your trouble.")
 	balance = 500
 	print("You decide to travel to the forest to take a shortcut to Orange Town to sell produce that you want to sell. On your way there, you spot a mysterious looking hideout. Curious, you venture a little too close and...")
-	print("You wake up in a dark room. You are not sure where you are, and you hear strange voices.")
+	response = str(input("You wake up in a dark room. You are not sure where you are, and you hear strange voices. Suddenly, a person takes off your blindfold, and you are asked, 'How did you find this place?!' \nSay nothing \nI stumbled upon it and was curious."))
+	if response == "Say nothing":
+		print("The interrogator punches you in the face, causing you to lose 5 health. He yells, 'Answer me when I'm talking to you, scum!'")
+	elif reponse == "I stumbled upon it and was curious":
+		print("The man says, 'Mind your own business next time! Now leave before I kill you!' You exit quickly and arrive at Orange Town, where you see your friend. Your friend, concerned that you looked troubled asks, 'Are you okay? What's wrong?'")
+		print("You don't respond and she asks you again, '" + name + "', I'm really concerned about you. Will you please tell me? what's wrong?' \nTell her \nSay nothing")
 elif("Kill them"):
 	decision = str(input("Oh no! 2 of the king's soldiers are after you! You only have a sword and a bow and arrows. What would you like to do? \nFight them\n Surrender"))
 	if decision == "Fight them":
