@@ -96,14 +96,14 @@ friend = str(input("A man named Joe approaches you. He says, 'Hello, I saw you k
 	
 	
 	
-	#if travel == "Help them out":
-	#if response == "Say nothing":
-	#elif reponse == "I stumbled upon it and was curious":
-	#if answer == "Tell her":
-	#elif answer == "Say nothing":
-	#elif("Kill them"):
-	#if decision == "Fight them":
-	#if weapon == "sword":
-	#elif weapon == "arrows":
-	#if friend == "yes":
-	#elif friend == "no":
+	"""if travel == "Help them out":
+	if response == "Say nothing":
+	elif reponse == "I stumbled upon it and was curious":
+	if answer == "Tell her":
+	elif answer == "Say nothing":
+	elif("Kill them"):
+	if decision == "Fight them":
+	if weapon == "sword":
+	elif weapon == "arrows":
+	if friend == "yes":
+	elif friend == "no":"""
